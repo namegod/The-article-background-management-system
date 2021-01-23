@@ -12,12 +12,15 @@ rouTer.get(/^\/$|^\/admin$/,articlecontroller.admin)
 rouTer.get('/artindex',articlecontroller.artindex)
 
 rouTer.get('/addition',articlecontroller.addition)
+rouTer.get('/ContentAdd',articlecontroller.ContentAdd)
 
+rouTer.get('/allarticle',articlecontroller.allArticle)
 
 // 分类列表页面
 rouTer.get('/catindex',articlecontroller.catindex)
 
 rouTer.get('/artadd',articlecontroller.artadd)
+
 
 
 // 分类数据的接口
